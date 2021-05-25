@@ -1,0 +1,10 @@
+# Goal of empty schema is so that all other schema files can extend from them.
+# _empty fields are placeholders as graphql do not authorise objects
+
+type Query {
+    _empty: String
+}
+
+type Mutation {
+    _empty: String
+}
